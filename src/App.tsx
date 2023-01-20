@@ -9,7 +9,7 @@ function getRandomName(): string {
 }
 
 export const App: React.FC = () => {
-  const [hasClock, setHasClock] = useState(false);
+  const [hasClock, setHasClock] = useState(true);
   const [clockName, setClockName] = useState('Clock-0');
 
   const handleRightClick = (event: MouseEvent) => {
